@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    justify-content: center;
+}
+
+html {
+    height: 100%;
+    background-repeat: no-repeat;
+
+}
+
+body {
+
+    background-image: linear-gradient(180deg, #88CEF8 5%, #FFFFFF);
+
+}
+
+.container {
+    width: auto;
+
+    justify-content: center;
+
+    display: flex;
+    margin: auto;
+    top: 122px;
+    position: relative;
+}
+
+
+.card {
+
+    align-items: center;
+    display: flex;
+
+}
+
+
+
+.card img {
+    margin: auto;
+    width: 300px;
+
+}
+
+
+form {
+    position: relative;
+    width: auto;
+    margin: auto;
+    display: flex;
+    height: auto;
+    top: 115px;
+}
+
+
+
+input {
+    text-align: center;
+    color: #88CEF8;
+    width: 400px;
+    -moz-appearance: textfield;
+    appearance: textfield;
+    border: solid;
+    border-radius: 25px;
+    border: 2px solid #D9EFFD;
+    outline-width: 0;
+    margin: 10px;
+    height: 70px;
+    top: 120px;
+    position: static;
+    font-size: 50px;
+    font-family: Palatino Linotype;
+}
+
+#input1 {
+    user-select: all;
+}
+
+::placeholder {
+    color: #88CEF8;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    outline-width: 0;
+}
+
+@media (max-width: 800px) {
+    .card img {
+        margin: auto;
+        width: 135px;
+    }
+
+    html {
+        height: 100%;
+    }
+
+    input {
+        width: 150px;
+        -moz-appearance: textfield;
+        appearance: textfield;
+        border: solid;
+        border-radius: 25px;
+        border: 2px solid #D9EFFD;
+        outline-width: 0;
+        margin: 10px;
+        height: 45px;
+        top: 120px;
+        position: static;
+        font-size: 30px;
+    }
+}
