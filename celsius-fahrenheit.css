@@ -1,7 +1,4 @@
-* {
-    padding: 0px;
-    justify-content: center;
-}
+
 
 html {
     height: 100%;
@@ -44,6 +41,7 @@ body {
 
 
 form {
+    justify-content: center;
     position: relative;
     width: auto;
     margin: auto;
@@ -59,6 +57,7 @@ input {
     color: #88CEF8;
     width: 400px;
     -moz-appearance: textfield;
+    -webkit-appearance: textfield;
     appearance: textfield;
     border: solid;
     border-radius: 25px;
@@ -70,10 +69,6 @@ input {
     position: static;
     font-size: 50px;
     font-family: Palatino Linotype;
-}
-
-#input1 {
-    user-select: all;
 }
 
 ::placeholder {
